@@ -24,10 +24,29 @@ export class qr{
             });
 
             const coppyText = (e) => {
-                navigator.clipboard.writeText(this.info['donnate'][this.el.id].qr_code)
-                    .then(()=> console.log('text copied...'))
+            const textToCopy = this.info['donnate'][this.el.id].qr_code;
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                
+                navigator.clipboard.writeText(textToCopy)
+                    .then(() => console.log('text copied (clipboard API)'))
                     .catch(err => console.log(err));
-            };
+            } else {
+                
+                const textArea = document.createElement('textarea');
+                textArea.value = textToCopy;
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                try {
+                    const successful = document.execCommand('copy');
+                    if (successful) console.log('text copied (fallback)');
+                } catch (err) {
+                    console.log('fallback copy failed', err);
+                }
+                document.body.removeChild(textArea);
+            }
+        };
             coppy_button.addEventListener('click', coppyText);
             coppy_button.addEventListener('touchend', coppyText);
 
