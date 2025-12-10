@@ -16,7 +16,7 @@ export class qr{
             text.classList.add('text-qr');
             const coppy_button = document.createElement('button');
             coppy_button.classList.add('coppy_button');
-            coppy_button.innerText = '🗋';
+            coppy_button.innerText = 'Copy';
             new QRious({
                 element: qrCanvas,
                 value: this.info['donnate'][this.el.id].qr_code,
