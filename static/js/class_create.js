@@ -12,7 +12,7 @@ export class Create{
         try{
             const span = document.createElement('span');
             span.style.color = 'grey';
-            span.innerText = config.version;
+            span.innerText = `HappySweetLife cv:${config.version}`;
 
             this.main_div.append(span);
             for(const block in info){

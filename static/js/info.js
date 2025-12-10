@@ -18,19 +18,19 @@ export const info = {
     "donnate" : {
         "usdt" :{
             "short_name" : 'usdt',
-            "title" : "",
+            "title" : "$USDT",
             "status" : 'on',
             "qr_code" : 'TSKh9BKt8nmhXccvSnW65nnYmf7E5ub7mr',
             "img" : 'usdt.jpg',
-            "dop_info" : ''
+            "dop_info" : 'TRC-20'
         },
         "ton" : {
             "short_name" : 'ton',
-            "title" : "",
+            "title" : "$TON",
             "status" : 'on',
             "qr_code" : 'UQDgSKV-fdSAhTadJcG5R8uNqwVewkbScBPfvDCtzJRsN6rK',
             "img" : 'ton.jpg',
-            "dop_info" : ''
+            "dop_info" : 'TON'
         },
         "cryptobot" :{
             "short_name" : 'crpb',
@@ -53,5 +53,5 @@ export const info = {
 };
 
 export const config= {
-    "version" : '1.0.6'
+    "version" : '1.0.7'
 }

@@ -10,9 +10,12 @@ export class qr{
             if(dinate_div){
                 dinate_div.innerHTML = '';
             };
+            const dop_info = document.createElement('span');
             const qrCanvas = document.createElement('canvas');
             const text = document.createElement('span');
+            dop_info.innerText = this.info['donnate'][this.el.id].dop_info;
             text.innerText =  this.info['donnate'][this.el.id].qr_code;
+            dop_info.classList.add('text-qr');
             text.classList.add('text-qr');
             const coppy_button = document.createElement('button');
             coppy_button.classList.add('coppy_button');
