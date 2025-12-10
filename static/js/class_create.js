@@ -59,7 +59,8 @@ export class Create{
                             
                             info_tet.innerHTML = `
                             <img class='img_res' src='static/picsman/${info[block][mini_blocs].img}'<br>
-                            | ${info[block][mini_blocs].title} | `;
+                            ${info[block][mini_blocs].title}&nbsp;
+                            `
                             info_tet.classList.add('info_tet');
                             img.classList.add('img_res');
                             donate_div.append(info_tet);
