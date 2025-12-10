@@ -23,15 +23,14 @@ export class qr{
                 size:180
             });
 
-            coppy_button.addEventListener('click',()=>{
+            const coppyText = (e) => {
                 navigator.clipboard.writeText(this.info['donnate'][this.el.id].qr_code)
-                .then(()=>{
-                    console.log('text coppy...');
-                })
-                .catch(err=>{
-                    console.log(err);
-                });
-            });
+                    .then(()=> console.log('text copied...'))
+                    .catch(err => console.log(err));
+            };
+            coppy_button.addEventListener('click', coppyText);
+            coppy_button.addEventListener('touchend', coppyText);
+
             dinate_div.append(qrCanvas,text,coppy_button);
 
         }catch(err){    
