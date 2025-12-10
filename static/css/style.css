@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    zoom: 1.5; 
+    
+}
+.main_div{
+    justify-content: center;
+    
+}
+.icons{
+    width: 60px;
+    height: 60px;
+}
+.div_for_man{
+    display: flex;
+    justify-content: center;
+}
+.Donate_Text_div{
+    display: flex;
+    max-width: calc(15 * 50px + 2 * 10px);
+    justify-content: center;
+}
+.img_res{
+    border-radius: 35px;
+    width: 25px;
+    height: 25px;
+}
+.qr_div{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column; /* ← ставим элементы друг под другом */
+    align-items: center;  /* ← выравниваем по центру */
+    margin-top: 30px;
+    gap: 10px;
+}
+.text-qr{
+    color: white;
+    text-align: center; /* по центру внутри span или div */
+    display: block;     /* чтобы text-align работал */
+
+}
+.coppy_button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    color:white;
+    background-color: black;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.coppy_button:active{
+    background-color: rgb(5, 95, 5);
+    color:red;
+}
+.donate_text{
+    color:red;
+    
+}
+.img_man{
+    width: 300px;
+    height: 600px;
+}
+.info_tet{
+    position: relative;
+    display: flex;
+    top:8px;
+    display:flex;
+}
+.info_tet:hover{
+    top:0px;
+}
+.donate_div:hover{
+    background-image: linear-gradient(rgb(57, 26, 26),rgb(32, 32, 32));
+    border: 3px solid rgb(43, 43, 43);
+    border-radius:30px ;
+}
+.donate_div{
+    flex-direction: column; 
+    justify-self: center;
+    align-items: center;
+
+}
+.div_info{
+    display: flex;
+    color: white;
+    max-width: calc(15 * 50px + 2 * 10px);
+    height: 30px;
+    justify-content: center;
+    border: 3px solid rgb(43, 43, 43);
+    background-image: linear-gradient(rgb(16, 16, 16),rgb(32, 32, 32));
+    border-radius:30px ;
+}
+.div_info:hover{
+    background-image: linear-gradient(rgb(12, 12, 12),rgb(73, 73, 73));
+}
