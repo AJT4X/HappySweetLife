@@ -15,6 +15,14 @@ export const info = {
         "img" : 'hso_inst.jpg',
         "dop_info" : ''
     },
+    "tumblr":{
+        "short_name" : "tmblr",
+        "title" : "Tumblr",
+        "status" : 'on',
+        "link" : 'https://www.tumblr.com/happysweetoverdose',
+        "img" : 'tmblr.jpg',
+        "dop_info" : ''
+    },
     "donnate" : {
         "usdt" :{
             "short_name" : 'usdt',
@@ -53,5 +61,5 @@ export const info = {
 };
 
 export const config= {
-    "version" : '1.0.10'
+    "version" : '1.1.0'
 }

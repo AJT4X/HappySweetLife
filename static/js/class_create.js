@@ -11,7 +11,7 @@ export class Create{
         
         try{
             const span = document.createElement('span');
-            span.style.color = 'grey';
+            span.style.color = 'black';
             span.innerText = `HappySweetLife cv:${config.version}`;
 
             this.main_div.append(span);
