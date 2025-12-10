@@ -34,7 +34,7 @@ export class qr{
             coppy_button.addEventListener('click', coppyText);
             coppy_button.addEventListener('touchend', coppyText);
 
-            dinate_div.append(qrCanvas,text,coppy_button);
+            dinate_div.append(dop_info,qrCanvas,text,coppy_button);
 
         }catch(err){    
             console.log(err);
