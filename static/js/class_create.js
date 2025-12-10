@@ -13,8 +13,8 @@ export class Create{
             const span = document.createElement('span');
             span.style.color = 'grey';
             span.innerText = config.version;
-            
-            document.head.append(span);
+
+            this.main_div.append(span);
             for(const block in info){
                 console.log(info[block]);
                 const div_info = document.createElement('div');
