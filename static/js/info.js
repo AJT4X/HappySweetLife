@@ -18,7 +18,7 @@ export const info = {
     "donnate" : {
         "usdt" :{
             "short_name" : 'usdt',
-            "title" : "$USDT(TRC-20)",
+            "title" : "",
             "status" : 'on',
             "qr_code" : 'TSKh9BKt8nmhXccvSnW65nnYmf7E5ub7mr',
             "img" : 'usdt.jpg',
@@ -26,7 +26,7 @@ export const info = {
         },
         "ton" : {
             "short_name" : 'ton',
-            "title" : "$TON",
+            "title" : "",
             "status" : 'on',
             "qr_code" : 'UQDgSKV-fdSAhTadJcG5R8uNqwVewkbScBPfvDCtzJRsN6rK',
             "img" : 'ton.jpg',
