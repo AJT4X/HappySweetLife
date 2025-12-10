@@ -5,7 +5,7 @@ export const info = {
         "status" : 'on',
         "link" : 'https://t.me/TpyT7bI/2',
         "img" : 'HSLPic.jpg',
-        "dop_info" : ''
+        "dop_info" : '21+'
     },
     "inst" : {
         "short_name" : "inst",
@@ -53,5 +53,5 @@ export const info = {
 };
 
 export const config= {
-    "version" : '1.0.9'
+    "version" : '1.0.10'
 }

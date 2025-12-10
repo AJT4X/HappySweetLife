@@ -25,7 +25,7 @@ export class Create{
                     const info_tet = document.createElement('span');
                     img.src = `static/picsman/` + info[block].img;
                     info_tet.classList.add('info_tet');
-                    info_tet.innerHTML = `${info[block].title}`;
+                    info_tet.innerHTML = `${info[block].title}&nbsp${info[block].dop_info}`;
                     div_info.append(img,info_tet);
                     div_info.id = info[block].short_name;
                     img.classList.add('img_res');
