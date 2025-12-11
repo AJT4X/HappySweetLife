@@ -23,6 +23,14 @@ export const info = {
         "img" : 'tmblr.jpg',
         "dop_info" : ''
     },
+    "Pinterest":{
+        "short_name" : "pntrst",
+        "title" : "Pinterest",
+        "status" : 'on',
+        "link" : 'https://www.pinterest.com/happysweetdie/_pins/',
+        "img" : 'pntrst.jpg',
+        "dop_info" : ''
+    },
     "donnate" : {
         "usdt" :{
             "short_name" : 'usdt',
@@ -61,5 +69,5 @@ export const info = {
 };
 
 export const config= {
-    "version" : '1.1.1'
+    "version" : '1.2.0'
 }
