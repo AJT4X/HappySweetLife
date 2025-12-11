@@ -27,7 +27,7 @@ export const info = {
         "short_name" : "pntrst",
         "title" : "Pinterest",
         "status" : 'on',
-        "link" : 'https://www.pinterest.com/happysweetdie/_pins/',
+        "link" : 'https://www.pinterest.com/happysweetdie/_created',
         "img" : 'pntrst.jpg',
         "dop_info" : ''
     },
@@ -69,5 +69,5 @@ export const info = {
 };
 
 export const config= {
-    "version" : '1.2.0'
+    "version" : '1.2.1'
 }
